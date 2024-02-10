@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <h1>(人◕‿◕) ℂ𝕠𝕣𝕣𝕖𝕝𝕒𝕥𝕚𝕠𝕟 ℂ𝕠𝕖𝕗𝕗𝕚𝕔𝕚𝕖𝕟𝕥 ℂ𝕒𝕝𝕔𝕦𝕝𝕒𝕥𝕠𝕣 (•◡•)</h1>
+    <div class="wrapper">
+       Please Enter Values comma saperted.
+        <p>
+            Data of X:
+            <input type="text" onchange='handleChange()' id="X"><br>
+            <span id="X_error"></span>
+        </p>
+        <p>
+            Data of Y:
+            <input type="text" id="Y"><br>
+            <span id="Y_error"></span>
+        </p>
+        <button id="btn" onclick='Calculate()'>calculate</button>
+        <h3 id="Output"></h3>
+
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>

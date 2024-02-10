@@ -1,0 +1,140 @@
+
+:root{
+    --navbar-height:45px;
+}
+
+#navbar{
+    dispaly:flex;
+    align-items: center;
+
+}
+
+#navbar {
+    position: relative;
+}
+lebal.logo{
+    color: white;
+    font-size: 100px;
+   
+    font-weight: bold;
+}
+#navbar ul{
+    float: none;
+    margin-right: 100px;
+    
+}
+#navbar::before{
+    content:"";
+    background-color:none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+    width: 100px;
+    text-align: center;
+    color: black;
+    display :block;
+    padding :3px 22px;
+    border-radius: 20px;
+    text-decoration: white;
+    justify-items: center;
+
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;}
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+#Home h1 {
+    color: black;
+    text-align: center;
+}
+#Home p{
+    color :black;
+    text-align: center;
+    font-size: 1.5;
+}
+#Home::before {content:"";
+    position: absolute;
+   background-color: skyblue;
+    height: 120%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+#Home img{
+
+}
+.red{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+    padding: 3px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.0rem;
+}
+#Theory::before {content:"";
+        position: absolute;
+       background-color: white;
+        height: 450%;
+        width: 100%;
+        z-index: -1;  
+        opacity: 0.6;
+    
+}
+#Theory head h2{
+    background-color: skyblue;
+    color: black;
+    padding: 3px 20px;
+    border: 2px solid white;
+    margin: 17px;
+    font-size: 1.0rem;
+    text-align: center;
+}
+#Theory body h3 p img {
+    background-color: pink;
+}
+#Theory navbar ul li a{
+    width: 100px;
+    text-align: center;
+    color: black;
+    display :block;
+    padding :3px 22px;
+    border-radius: 20px;
+    text-decoration: white;
+    justify-items: center;}
+    #Theoary navbar ul li{
+        display: inline-block;
+        list-style: none;
+        font-size: 1.3rem;
+    }
+    #Theoary navbar ul li a:hover{
+        color: black;
+    background-color: red;
+    }    
+
+
+h2{color: black;
+text-align: center;}
